@@ -1,1 +1,1 @@
-# teamAAD25
+# teamAAD24-Animation-Challenge
