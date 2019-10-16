@@ -1,1 +1,2 @@
-# teamAAD24-Animation-Challenge
+# teamAAD24-Animation Challenge
+Repository Created.
