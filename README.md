@@ -15,7 +15,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://github.com/babu-appDev/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to the project.
+Please read [CONTRIBUTING.md](https://github.com/babu-appDev/teamAAD24/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to the project.
 
 ## Authors
 
