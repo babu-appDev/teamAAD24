@@ -68,6 +68,7 @@ TODO: Add code Snippets Showing Implementation of Property Animation
 In addition to those above we have Drawable Animation. I know your hear exploding already. What, twelve’s way to do fade out views, you might say? No, don’t worry, this one actually differs from previous.  AnimationDrawable is more like 2D game development. Because it’s frame drawable animation. For example, we have PNG’s of running hero, for each frame we set its duration, put into list and set in to any view.
 
 Here is an example of Drawable animations which you can check out [here](https://github.com/Sefford/CircularProgressDrawable).
+
 ![](https://github.com/Sefford/CircularProgressDrawable/blob/master/overshoot.gif)
 
 ```
