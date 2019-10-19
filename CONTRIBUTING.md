@@ -2,6 +2,12 @@
 
 When contributing to this repository, please first discuss the change you wish to make via issue, whatsapp, or slack with members of **teamAAD24**.
 
+## Usage
+```
+Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+```
+
 ## Pull Request Process
 If you've forked the repository and made changes to the fork, you can ask that the upstream repository accept your changes by creating a pull request.
 
