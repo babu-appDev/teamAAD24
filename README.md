@@ -20,6 +20,7 @@ Please read [CONTRIBUTING.md](https://github.com/babu-appDev/teamAAD24/blob/mast
 ## Authors
 
 * **babu-appDev** - [babu-appDev](https://github.com/babu-appDev)
+* **Oliver Muthomi** - [muth0mi](https://github.com/muth0mi)
 
 ## About The Project
 
