@@ -21,7 +21,7 @@ Please read [CONTRIBUTING.md](https://github.com/babu-appDev/teamAAD24/blob/mast
 
 * **babu-appDev** - [babu-appDev](https://github.com/babu-appDev)
 * **Oliver Muthomi** - [muth0mi](https://github.com/muth0mi)
-
+* **Wachira Nduati** - [Wachira Nduati](https://github.com/wachiranduati)
 ## About The Project
 
 ### 1. ViewAnimation
