@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingBottom="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:padding="8dp"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/title_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:singleLine="true"
+            android:hint="@string/title"
+            android:inputType="text" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/message"
+        android:textColor="#9fa5ae"
+        android:textSize="12sp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Long body text - Minantia non modo formaeque in meis acervo formaeque gravitate erat indigestaque habentia fixo mutatas aliud orbis retinebat qui non alta"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:background="#40000000"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:padding="16dp"
+        android:id="@+id/choose_color"
+        android:text="@string/random_tag_color"
+        android:textColor="#505050"
+        android:checked="true"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:visibility="gone"
+        android:id="@+id/color_container"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            app:srcCompat="@drawable/circle_back"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:id="@+id/back_color"
+            android:background="@drawable/circle_back"
+            android:padding="2dp"
+            android:tint="@color/colorAccent"
+            android:layout_margin="8dp"
+            android:contentDescription="@null" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/color_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="#ffc019"
+                android:hint="@string/hex_code"
+                android:inputType="text" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:text="@string/update"
+            android:textAllCaps="true"
+            android:enabled="false"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp"
+            android:padding="16dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</LinearLayout>

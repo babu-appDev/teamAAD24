@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="Autofill"
+    app:cardCornerRadius="20dp"
+    android:layout_gravity="center"
+    app:cardElevation="3dp"
+    android:id="@+id/container"
+    android:layout_margin="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end|center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/new_entry"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:id="@+id/dialog_title"
+                android:paddingLeft="16dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingRight="16dp"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:text="@string/new_journal"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_weight="1"
+                android:textAllCaps="true"
+                android:visibility="gone"
+                android:id="@+id/new_journal"
+                android:textColor="@color/colorAccent"
+                android:textSize="16sp"
+                android:paddingStart="16dp"
+                android:gravity="end|center_vertical"
+                android:paddingEnd="16dp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:baselineAligned="false"
+            android:layout_height="wrap_content">
+
+            <include
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:id="@+id/new_entry"
+                layout="@layout/layout_new_entry"/>
+
+            <include
+                layout="@layout/layout_save_to"
+                android:visibility="gone"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:id="@+id/save_to"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:text="@string/next"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:textAllCaps="true"
+                android:id="@+id/next"
+                android:textColor="@color/colorAccent"
+                android:textSize="16sp"
+                android:padding="16dp"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:text="@string/save"
+                android:layout_weight="1"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:textAllCaps="true"
+                android:id="@+id/save"
+                android:visibility="gone"
+                android:textColor="@color/colorAccent"
+                android:gravity="end"
+                android:textSize="16sp"
+                android:padding="16dp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
