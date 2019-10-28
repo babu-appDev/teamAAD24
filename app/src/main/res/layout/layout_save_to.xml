@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:padding="8dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                app:srcCompat="@drawable/circle_back"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/circle_back"
+                android:padding="2dp"
+                android:tint="@color/colorPrimary"
+                android:layout_margin="8dp"
+                android:contentDescription="@null" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:padding="12dp"
+                android:layout_centerInParent="true"
+                android:textSize="24sp"
+                android:textColor="#fff"
+                android:text="1"
+                android:layout_height="wrap_content"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:text="Journal #1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:textColor="#9fa5ae"
+                android:text="@string/updated_22_oct_2019"/>
+        </LinearLayout>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:checked="true"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#40000000"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:padding="8dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                app:srcCompat="@drawable/circle_back"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/circle_back"
+                android:padding="2dp"
+                android:tint="@color/colorPrimary"
+                android:layout_margin="8dp"
+                android:contentDescription="@null" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:padding="12dp"
+                android:layout_centerInParent="true"
+                android:textSize="24sp"
+                android:textColor="#fff"
+                android:text="2"
+                android:layout_height="wrap_content"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:text="Journal #2"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:textColor="#9fa5ae"
+                android:text="@string/updated_22_oct_2019"/>
+        </LinearLayout>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:checked="false"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#41000000"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:padding="8dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                app:srcCompat="@drawable/circle_back"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/circle_back"
+                android:padding="2dp"
+                android:tint="@color/colorPrimary"
+                android:layout_margin="8dp"
+                android:contentDescription="@null" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:padding="12dp"
+                android:layout_centerInParent="true"
+                android:textSize="24sp"
+                android:textColor="#fff"
+                android:text="3"
+                android:layout_height="wrap_content"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:text="Journal #3"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="#9fa5ae"
+                android:textStyle="bold"
+                android:text="@string/updated_22_oct_2019"/>
+        </LinearLayout>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:checked="false"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#40000000"/>
+
+</LinearLayout>

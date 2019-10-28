@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Note App</string>
+    <string name="title">Title</string>
+    <string name="new_entry">New Entry</string>
+    <string name="message">Message</string>
+    <string name="random_tag_color">Random tag color</string>
+    <string name="hex_code">HEX CODE</string>
+    <string name="update">update</string>
+    <string name="new_journal">+New Journal</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">save</string>
+    <string name="next">Next</string>
+    <string name="updated_22_oct_2019">UPDATED: 22 OCT 2019</string>
+    <string name="no_notes_available_tap_below_to_add">No journals found.\n\n•\n\n Tap below and make one.</string>
+    <string name="home_screen">Home Screen</string>
 </resources>
